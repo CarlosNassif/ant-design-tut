@@ -107,6 +107,7 @@ const App = () => {
               background: colorBgContainer,
             }}
           >
+            <Title>Grid</Title>
             <Row gutter={16}>
               <Col>
                 <Card
@@ -151,6 +152,55 @@ const App = () => {
                   }}
                 >
                   <Title>Dashboard</Title>
+                </Card>
+              </Col>
+            </Row>
+            <br />
+            <Title>Flexbox</Title>
+            <Row
+              style={{
+                display: 'flex',
+                marginTop: 32,
+              }}
+            >
+              <Col>
+                <Card
+                  style={{
+                    flex: 1,
+                    height: 300,
+                  }}
+                >
+                  <Title>cool</Title>
+                </Card>
+              </Col>
+              <Col>
+                <Card
+                  style={{
+                    flex: 1,
+                    height: 300,
+                  }}
+                >
+                  <Title>cool</Title>
+                </Card>
+              </Col>
+              <Col>
+                <Card
+                  style={{
+                    flex: 1,
+                    height: 300,
+                  }}
+                >
+                  <Title>cool</Title>
+                </Card>
+              </Col>
+              <Col>
+                <Card
+                  style={{
+                    flex: 1,
+                    height: 300,
+                  }}
+                >
+                  <Title>cool</Title>
                 </Card>
               </Col>
             </Row>
