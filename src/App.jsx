@@ -107,12 +107,8 @@ const App = () => {
               background: colorBgContainer,
             }}
           >
-            <Row>
-              <Col
-                style={{
-                  marginRight: 24,
-                }}
-              >
+            <Row gutter={16}>
+              <Col>
                 <Card
                   title='Default size card'
                   extra={<a href='#'>More</a>}
@@ -123,11 +119,7 @@ const App = () => {
                   <Title>Dashboard</Title>
                 </Card>
               </Col>
-              <Col
-                style={{
-                  marginRight: 24,
-                }}
-              >
+              <Col>
                 <Card
                   title='Default size card'
                   extra={<a href='#'>More</a>}
@@ -138,11 +130,7 @@ const App = () => {
                   <Title>Dashboard</Title>
                 </Card>
               </Col>
-              <Col
-                style={{
-                  marginRight: 24,
-                }}
-              >
+              <Col>
                 <Card
                   title='Default size card'
                   extra={<a href='#'>More</a>}
