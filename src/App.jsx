@@ -8,9 +8,20 @@ import {
   DesktopOutlined,
   TeamOutlined,
 } from '@ant-design/icons';
-import { Breadcrumb, Layout, Menu, theme } from 'antd';
+import {
+  Breadcrumb,
+  Card,
+  Col,
+  Layout,
+  Menu,
+  Row,
+  theme,
+  Typography,
+} from 'antd';
 import React from 'react';
 import { useState } from 'react';
+
+const { Title } = Typography;
 
 const { Header, Content, Footer, Sider } = Layout;
 
@@ -96,7 +107,65 @@ const App = () => {
               background: colorBgContainer,
             }}
           >
-            Bill is a cat.
+            <Row>
+              <Col
+                style={{
+                  marginRight: 24,
+                }}
+              >
+                <Card
+                  title='Default size card'
+                  extra={<a href='#'>More</a>}
+                  style={{
+                    width: 300,
+                  }}
+                >
+                  <Title>Dashboard</Title>
+                </Card>
+              </Col>
+              <Col
+                style={{
+                  marginRight: 24,
+                }}
+              >
+                <Card
+                  title='Default size card'
+                  extra={<a href='#'>More</a>}
+                  style={{
+                    width: 300,
+                  }}
+                >
+                  <Title>Dashboard</Title>
+                </Card>
+              </Col>
+              <Col
+                style={{
+                  marginRight: 24,
+                }}
+              >
+                <Card
+                  title='Default size card'
+                  extra={<a href='#'>More</a>}
+                  style={{
+                    width: 300,
+                  }}
+                >
+                  <Title>Dashboard</Title>
+                </Card>
+              </Col>
+              <Col>
+                <Card
+                  size='small'
+                  title='Small size card'
+                  extra={<a href='#'>More</a>}
+                  style={{
+                    width: 300,
+                  }}
+                >
+                  <Title>Dashboard</Title>
+                </Card>
+              </Col>
+            </Row>
           </div>
         </Content>
         <Footer
